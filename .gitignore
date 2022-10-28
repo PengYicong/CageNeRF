@@ -5,3 +5,5 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 .jekyll-cache
+.bundle/
+vendor/

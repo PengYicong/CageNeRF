@@ -1,5 +1,5 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+title: CageNeRF
+description: Cage-based Neural Radiance Fields for Genrenlized 3D Deformation And Animation
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman

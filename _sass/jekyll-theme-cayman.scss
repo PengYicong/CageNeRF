@@ -130,7 +130,7 @@ a {
 
   @include large {
     font-size: 3.25rem;
-    padding: 3rem 4rem 2rem;
+    padding: 3rem 4rem 1rem;
 
   }
 
@@ -144,12 +144,34 @@ a {
 }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: normal;
-  opacity: 0.7;
+  opacity: 0.8;
 
   @include large {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+.institute {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.8;
+
+  @include large {
+    font-size: 1.05rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 
   @include medium {

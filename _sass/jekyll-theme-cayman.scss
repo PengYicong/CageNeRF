@@ -130,6 +130,8 @@ a {
 
   @include large {
     font-size: 3.25rem;
+    padding: 3rem 4rem 2rem;
+
   }
 
   @include medium {

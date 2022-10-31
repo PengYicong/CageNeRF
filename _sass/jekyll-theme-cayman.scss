@@ -112,7 +112,7 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 2rem 6rem;
   }
 
   @include medium {
@@ -131,6 +131,25 @@ a {
   @include large {
     font-size: 3.25rem;
     padding: 3rem 4rem 1rem;
+
+  }
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}
+
+.conference {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 2.75rem;
+    padding: 0.5rem 1rem;
 
   }
 

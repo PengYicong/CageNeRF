@@ -12,12 +12,15 @@ Specifically, the deformation is performed based on an enclosing polygon mesh wi
 In this way, we transform the cage into a generalized constraint, which is able to deform and animate arbitrary target objects while preserving geometry details. 
 Based on extensive experiments, we demonstrate the effectiveness of our framework in the task of geometry editing, object animation and deformation transfer.
 
-# Overview Video
-<video width="720" playsinline autoplay loop preload muted controls>
-  <source src="assets/media/hulk_sq1.mp4" type="video/mp4">
+# Overview
+## Framework
+![img.png](assets/media/img.png)
+
+## Slideshow
+<video width="850" playsinline autoplay loop preload muted controls>
+  <source src="assets/media/slide_show.mp4" type="video/mp4">
 </video>
 
-# 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

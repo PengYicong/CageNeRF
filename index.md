@@ -13,7 +13,7 @@ In this way, we transform the cage into a generalized constraint, which is able 
 Based on extensive experiments, we demonstrate the effectiveness of our framework in the task of geometry editing, object animation and deformation transfer.
 
 # Overview Video
-<video width="100%" playsinline autoplay loop preload muted controls>
+<video width="720" playsinline autoplay loop preload muted controls>
   <source src="assets/media/hulk_sq1.mp4" type="video/mp4">
 </video>
 

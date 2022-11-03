@@ -1,2 +1,3 @@
-Project Code for CageNeRF
-Coming Soon.
+Project for _CageNeRF: Cage-based Neural Radiance Fields for Genrenlized 3D Deformation and Animation_ NeurIPS 2022
+
+Code and datasets oming Soon.

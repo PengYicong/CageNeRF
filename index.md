@@ -17,7 +17,7 @@ Based on extensive experiments, we demonstrate the effectiveness of our framewor
 ![img.png](assets/media/img.png)
 
 ## Slideshow
-<video width="850" playsinline autoplay loop preload muted controls>
+<video width=device-width playsinline autoplay loop preload muted controls>
   <source src="assets/media/slide_show.mp4" type="video/mp4">
 </video>
 

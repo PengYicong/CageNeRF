@@ -3,6 +3,8 @@ layout: default
 ---
 
 # Abstract
+![teaser.png](assets/media/teaser.png)
+
 While implicit representations have achieved high-fidelity results in 3D rendering, deforming and animating the implicit field remains challenging. 
 Existing works typically leverage data-dependent models as deformation priors, such as SMPL for human body animation. 
 However, this dependency on category-specific priors limits them to generalize to other objects. 
@@ -14,130 +16,31 @@ Based on extensive experiments, we demonstrate the effectiveness of our framewor
 
 # Overview
 ## Framework
-![img.png](assets/media/img.png)
+![framework.png](assets/media/framework.png)
 
 ## Slideshow
-<video width=device-width playsinline autoplay loop preload muted controls>
+<video width="850" playsinline autoplay loop preload muted controls>
   <source src="assets/media/slide_show.mp4" type="video/mp4">
 </video>
 
+# Deformable Neural Radiance Fields
+![lego.png](assets/media/lego.png)
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Synthetic Dynamic Human
+![human_synth.png](assets/media/human_synth.png)
+In comparison with [animatable nerf](https://zju3dv.github.io/animatable_nerf/).
 
-[Link to another page](./another-page.html).
+# Project Demo
+<video width="850" playsinline autoplay loop preload muted controls>
+  <source src="assets/media/demo.mp4" type="video/mp4">
+</video>
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+# Citation
+```text
+@inproceedings{peng2021CageNeRF，
+    title={CageNeRF: Cage-based Neural Radiance Fields for Genrenlized 3D Deformation and Animation},
+    author={Peng, Yicong and Yan, Yichao and Liu, Shenqi and Cheng, Yuhao and Guan, Shanyan and Pan, Bowen and Zhai, Guangtao and Yang, Xiaokang},
+    booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
+    year={2022}
 }
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-<!--![Branching](https://guides.github.com/activities/hello-world/branching.png)-->
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
 ```
